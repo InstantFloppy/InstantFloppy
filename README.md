@@ -1,5 +1,5 @@
 # Instant Floppy
-
+[Instant Floppy](https://github.com/InstantFloppy/InstantFloppy/) • [Instant Floppy Games](https://github.com/InstantFloppy/IFGames/)
 ## Why is it called Instant Floppy?
 A while ago I was working in an MS-DOS virtual machine and I was told by some program I needed to insert a blank floppy disk to put program files on it. It happened a while ago so the memory is a bit vague. I went to find a blank floppy IMG and couldn't find one - it should have been one of the simplest tasks I'd do that day but I couldn't find a single blank IMG. Later it dawned on me that I could have just run `DEL *.*` on a copy of some other IMG, but hindsight is 20/20. I decided then that I'd make a website with really obvious tech tutorials so people like me wouldn't have to suffer.
 
