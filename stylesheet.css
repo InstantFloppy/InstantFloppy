@@ -1,5 +1,6 @@
-.game {
+.game, .game.publisher {
     font-weight: normal;
+    color: #FF4444
 }
 body {
     background-color: #000000;
