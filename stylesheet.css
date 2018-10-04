@@ -1,4 +1,5 @@
-.game, .game.publisher {
+/** classes with "." in them need an escape before **/
+.game, .game\.publisher {
     font-weight: normal;
     color: #FF4444
 }
