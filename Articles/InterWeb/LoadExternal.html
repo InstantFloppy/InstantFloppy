@@ -26,5 +26,21 @@
             (C) 2017-2018, all rights reserved.<br>
             articles belong to their respective creators.
         </h7>
+        <hr size="1" color=#00FF00 width="25%" align="left">
+        <p>We're currently testing Disqus comments on Instant Floppy. To see them you may have to enable JavaScript.</p>
+        <div id="disqus_thread"></div>
+        <script>
+            var disqus_config = function () {
+                this.page.url = //www.instantfloppy.net/Articles/InterWeb/LoadExternal;
+                this.page.identifier = LoadExternal;
+            };
+
+            (function() {
+                var d = document, s = d.createElement('script');
+                s.src = 'https://instantf.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
     </body>
 </html>
