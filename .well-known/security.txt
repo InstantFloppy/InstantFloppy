@@ -1,6 +1,5 @@
 # Thanks for taking the time to try to help me out.
-# Put [IFSEC] in the email subject line to put the flag up that what you need to tell me is super important.
-# And don't hesitate! If you're using this textfile to contact me it absolutely is super important!
+# Put [IFSEC] in the email subject line to put the flag up that what you need to tell me is important. Don't hesitate!
 
 Contact: deven@instantfloppy.net
 Preferred-Languages: en, jp
