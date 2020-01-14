@@ -5,78 +5,78 @@
 </head>
 <body>
 <p>
-               ___          __     ____     ___  ___    ___  __
- |||  ||  ||  ||    ||    ||  |   ||  ||   ||  ||  ||  ||    ||
- |||  ||  ||  ||__  ||   ||      ||    ||  ||  ||  ||  ||__  ||
- |||  ||  ||  ||    ||   ||      ||    ||  ||  ||  ||  ||   
-   |_|  |_|   ||__  ||__  ||__|   ||__||   ||      ||  ||__  ||
+...............___          __     ____     ___  ___    ___  __
+.|||  ||  ||  ||    ||    ||  |   ||  ||   ||  ||  ||  ||    ||
+.|||  ||  ||  ||__  ||   ||      ||    ||  ||  ||  ||  ||__  ||
+.|||  ||  ||  ||    ||   ||      ||    ||  ||  ||  ||  ||   
+...|_|  |_|   ||__  ||__  ||__|   ||__||   ||      ||  ||__  ||
 <br />
 ---TO YOUR NEW DEBIAN COMPUTER---------------------------------
 <br />
-	Or, should I say, good luck. Debian is quite a bit different
+...Or, should I say, good luck. Debian is quite a bit different
 to Windows! They use different command lines, different file-
 systems, different program types, different file types (ha!
 linux barely even uses extensions). Why?
 <br />
-	FIRST, THERE WAS NOTHING
+......FIRST, THERE WAS NOTHING
 <br />
-	THEN, BELL LABORATORIES
+......THEN, BELL LABORATORIES
 <br />
-	Some rad punks at Bell (namely: Ken Thompson; Dennis
+......Some rad punks at Bell (namely: Ken Thompson; Dennis
 Ritchie; Brian Kernighan; and other kickass engineers) were
 working on software at Bell for their Digital PDP-11, Multics
 (an operating system). Multics is still around, actually, for
 some reason. /They/ left the Multics project because it suuuuu-
 cked and then started a simpler OS project called Unix (because
 this was what people in the 60s thought was funny).
-	Unix is a big ol program that was like Windows back in the
+......Unix is a big ol program that was like Windows back in the
 day, but better. Much better! It turned PDP-11s into wacked-out
 timesharing systems - multiple users could use the same
 computer, at the same time, in '69 or so. Crazy!
-	Unix grew quite a bit. QUITE a bit. And it was expensive.
+......Unix grew quite a bit. QUITE a bit. And it was expensive.
 Like $500 for an installation medium, or like $1500 today.
 <br />
-	I'm bored of talking about Unix. It was this rad program
+......I'm bored of talking about Unix. It was this rad program
 that could run other programs and multitask with them. It
 started out written in assembly (ones and zeroes 4eva!!!)
 and then the bros at Bell (no girls allowed!!!) re-wrote it in
 C ((a brand-new programming language))! Unix and C, they go
 together like cocaine and waffles. 
-	Well, $500 is a sucky price when you can write your own OS
+......Well, $500 is a sucky price when you can write your own OS
 for free. That's what the GNU project, started by like rms,
 was meant to do. A free replacement for Unix? What? GNU (stands
 for GNU is Not Unix) was this incredible OS that acted just
 like Unix, almost identically, but was totally free and open-
 source.
-	GNU didn't happen because they sucked at it. A kernel was
+......GNU didn't happen because they sucked at it. A kernel was
 made, called the HURD, and it /sort of/ works today. Don't use
 it. If Linux is a "hobby operating system", the HURD is a
 Java program written by Biron to beat AP CS or whatever. Even I
 don't use it.
 <br />
-	THEN ANOTHER RAD PUNK APPEARED!
+......THEN ANOTHER RAD PUNK APPEARED!
 <br />
-	Linux Torvalds was working on his 386 machine out of boredom
+......Linux Torvalds was working on his 386 machine out of boredom
 and somehow made the Linux kernal, then Linux itself. He was
 just, like, this dude, and he started working on Linux in '91
 or whenever. I bet GNU is probably still bitter.
-	Anyway, Linux is a (now) better version of Unix. Linux is a
+......Anyway, Linux is a (now) better version of Unix. Linux is a
 portmanteu of Linux and Unix, and it wasn't Linus's idea. There
 are also controversies about how Linux runs the Linux kernal
 code, and its Code of Conduct. Have fun Binging this stuff!
 <br />
-	HOW DO I INSTALL THIS SHIT
+......HOW DO I INSTALL THIS SHIT
 <br />
-	First, format your hard disk as MBR. GPT doesn't work. I
+......First, format your hard disk as MBR. GPT doesn't work. I
 spent several days once trying to figure out why a drive
 wouldn't boot on GPT. It just doesn't. Bing it.
-	 _______________________________________________________
-	|			  |		|									    |		  |
-	| a ton GB | 32GB	|			idk. whatever		    | 16GB |
-	|__________|______|______________________________|______|
-	 /home		  /												swap
+._______________________________________________________
+|          |      |                              |      |
+| a ton GB | 32GB |      idk. whatever           | 16GB |
+|__________|______|______________________________|______|
+.../home      /                                    swap
 <br />
-	This is how I have my drive formatted. Debian doesn't have
+......This is how I have my drive formatted. Debian doesn't have
 a WYSIWYG partitioner (or maybe it does, I haven't used the
 graphical installer in years). If you want your user data
 (/home) on the same partition as your OS (/), you can just put
@@ -84,7 +84,7 @@ graphical installer in years). If you want your user data
 swap. Some people don't use a swap partition. I do. Most people
 would say the swap partition I use is absolutely absurd. Maybe.
 Bing it! Learn!
-	Most tutorials recommend beginners to put everything on /,
+......Most tutorials recommend beginners to put everything on /,
 no separate /home. Eh. Okay. If you reinstall your OS you'll
 lose all your data, and Debian hides everything in weird places
 so good luck backing that up quickly. The root only needs like
@@ -92,117 +92,117 @@ so good luck backing that up quickly. The root only needs like
 native installed applications take up the rest of the space
 there.
 <br />
-	WAIT, WHAT?! 20GB FOR NATIVE APPS?
+......WAIT, WHAT?! 20GB FOR NATIVE APPS?
 <br />
-	Linux native apps use like 500K each. Kilobytes. Yes,
+......Linux native apps use like 500K each. Kilobytes. Yes,
 really. Windows apps take up a fucking insane amount of space
 for some reason. I haven't come close to filling up my system
 partition and most of the apps I install are native.
 <br />
-	NATIVE APPS?
+......NATIVE APPS?
 <br />
-	Apps installed with the Debian and maybe some other package
+......Apps installed with the Debian and maybe some other package
 managers.
 <br />
-	PACKAGE MANAGERS?
+......PACKAGE MANAGERS?
 <br />
-	Apps that install other apps. There are a ton of these.
+......Apps that install other apps. There are a ton of these.
 You'll be using `apt` because you're not a hipster.
 <br />
-	WHAT ABOUT GAMES?
+......WHAT ABOUT GAMES?
 <br />
-	Steam games install in your /home.
+......Steam games install in your /home.
 <br />
-	FILES?
+......FILES?
 <br />
-	All your media goes in /home. There is *NO REASON* to have a
+......All your media goes in /home. There is *NO REASON* to have a
 large root partition if your /home is in a separate partition.
 <br />
-	OK.
+......OK.
 <br />
-	Cool. Partitioning is the hardest part, the rest is cake.
+......Cool. Partitioning is the hardest part, the rest is cake.
 Except drivers. Drivers are weird. Just... talk to me. Ask me
 for help. Whatever you do, don't skip the "MISSING FIRMWARE
 FILE" error message or whatever, it'll be really weird.
 <br />
-	DESKTOP SELECTION
+......DESKTOP SELECTION
 <br />
-	- GNOME
-		This is the one Ubuntu uses. Megabloated. The traditional
-		"I'm using Linux and I'm better than you."
-	- XFCE
-		"I'm using Linux and my computer is trash, but I still
-		like things that look good and run well." I used this one
-		for a while, really liked it. Only reason I don't use it
-		still is because it doesn't fit my uses.
-	- Cinnamon
-		"I like Windows 7 but it actually looks good, and I don't
-		like things that look good." Decent, runs extremely well
-		and lightly, but looks really bad (in my experience). I
-		dunno, maybe you'll be able to get some mileage out of
-		it.
-	- KDE/Plasma
-		The one I use when I have to dip into the desktop. Looks
-		very nice, with very little effort, but it's a memory
-		sucker. Linux memory suckers use like 500MB idly, so
-		you won't even notice it, but don't run this on a
-		Raspberry Pi.
-	- OTHERS
-		Ok.
-	- NONE
-		Ha! Good luck. Linux terminal experience is REQUIRED for
-		this option, or the motivation to actually LEARN THINGS.
+......- GNOME
+............This is the one Ubuntu uses. Megabloated. The traditional
+............"I'm using Linux and I'm better than you."
+......- XFCE
+............"I'm using Linux and my computer is trash, but I still
+............like things that look good and run well." I used this one
+............for a while, really liked it. Only reason I don't use it
+............still is because it doesn't fit my uses.
+......- Cinnamon
+............"I like Windows 7 but it actually looks good, and I don't
+............like things that look good." Decent, runs extremely well
+............and lightly, but looks really bad (in my experience). I
+............dunno, maybe you'll be able to get some mileage out of
+............it.
+......- KDE/Plasma
+............The one I use when I have to dip into the desktop. Looks
+............very nice, with very little effort, but it's a memory
+............sucker. Linux memory suckers use like 500MB idly, so
+............you won't even notice it, but don't run this on a
+............Raspberry Pi.
+......- OTHERS
+............Ok.
+......- NONE
+............Ha! Good luck. Linux terminal experience is REQUIRED for
+............this option, or the motivation to actually LEARN THINGS.
 <br />
-	OTHERS
-	- '90s look
-		- I wanna look like Tim Berners-Lee in the 90s
-			Use WindowMaker. Talk to me.
-		- I wanna look like the Jurassic Park computers
-			Use MaXX. Talk to me. (The Jurassic Park computers
-			were real, and they ran Unix.)
-		- I wanna look like Windows 98 or 2000 or whatever
-			Excellent taste! Use XFCE and follow a tutorial to
-			install Chicago95 (Bing it).
-		- I wanna look like Windows XP
-			Me too.
-		- I wanna look like Windows Vista
-			Go fuck yourself, Ben.
-	- I wanna look like Windows 8/8.1/10
-		Why? Use something like the Zorin desktop environment.
-		Don't talk to me, I don't like you.
-	- I wanna look like MacOS
-		Use Plasma or the Elementary desktop.
-	- I wanna look like a hacker
-		Learn BASH. Use the shell.
+......OTHERS
+......- '90s look
+............- I wanna look like Tim Berners-Lee in the 90s
+..................Use WindowMaker. Talk to me.
+............- I wanna look like the Jurassic Park computers
+..................Use MaXX. Talk to me. (The Jurassic Park computers
+..................were real, and they ran Unix.)
+............- I wanna look like Windows 98 or 2000 or whatever
+..................Excellent taste! Use XFCE and follow a tutorial to
+..................install Chicago95 (Bing it).
+............- I wanna look like Windows XP
+..................Me too.
+............- I wanna look like Windows Vista
+..................Go fuck yourself, Ben.
+......- I wanna look like Windows 8/8.1/10
+............Why? Use something like the Zorin desktop environment.
+............Don't talk to me, I don't like you.
+......- I wanna look like MacOS
+............Use Plasma or the Elementary desktop.
+......- I wanna look like a hacker
+............Learn BASH. Use the shell. BE a hacker.
 <br />
-	ONE OF MY WEIRD PROPRIETARY PERIPHERALS ISN'T WORKING
-		Bing it.
+......ONE OF MY WEIRD PROPRIETARY PERIPHERALS ISN'T WORKING
+............Bing it.
 <br />
-	MY GRAPHICS ARE GLITCHING OUT
-		Is it AMD?
-			YES.
-				You need to install the AMD drivers. Talk to me.
-		Is it NVidia?
-			YES.
-				Install the NVidia drivers.
-		Is it [something else]?
-			YES.
-				Bing it.
+......MY GRAPHICS ARE GLITCHING OUT
+............Is it AMD?
+..................YES.
+........................You need to install the AMD drivers. Talk to me.
+............Is it NVidia?
+..................YES.
+........................Install the NVidia drivers.
+............Is it [something else]?
+..................YES.
+........................Bing it.
 <br />
-	BUT I LIKE PEOPLE SPYING ON ME
-		Use:
-			Astra Linux (Debian + Russian code)
-			Ubuntu (has Canonical telemetry)
-			Red Hat (reportedly has IBM stuff on it)
+......BUT I LIKE PEOPLE SPYING ON ME
+............Use:
+..................Astra Linux (Debian + Russian code)
+..................Ubuntu (has Canonical telemetry)
+..................Red Hat (reportedly has IBM stuff on it)
 <br />
-	BUT I DON'T LIKE PEOPLE SPYING ON ME
-		Use:
-			Trisquel
-			Tails
+......BUT I DON'T LIKE PEOPLE SPYING ON ME
+............Use:
+..................Trisquel
+..................Tails
 <br />
-	BUT I WANNA SPY ON PEOPLE
-		Use:
-			Kali
+......BUT I WANNA SPY ON PEOPLE
+............Use:
+..................Kali
 <br />
-	Have fun. If you bork your machine you can probably fix it.
+Have fun. If you bork your machine you can probably fix it.
 	</p></body>
