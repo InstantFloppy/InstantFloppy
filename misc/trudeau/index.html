@@ -1,74 +1,53 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>css demo</title>
-        <link rel="canonical" href="https://www.instantfloppy.net/trudeau/" />
-        <style>
-          
-          body { font-size: 1em; }
-          img { width: 100% }
-          
-          @media (prefers-color-scheme: light) {
-            body {
-              background-color: #FFFFFF;
-              color: #000000;
-            }
-            
-            hr { color: #000000; }
-            
-            .black-trudeau { display: none; }
-              
-            a { color: #CC0000; }
-          }
-          
-          @media (prefers-color-scheme: dark) {
-          
-            body {
-              background-color: #000000;
-              color: #00FF00;
-            }
-            
-            hr { color: #00FF00; }
-            
-            .white-trudeau { display: none; }
-              
-              a { color: #FF0000; }
-            
-          }
-          
-          
-          
-        </style>
-    </head>
-    <body>
-        <h1><a href="/">
-            Instant Floppy
-        </a></h1>
-        <hr size="1" width="25%" align="left">
-        
-        <p class="black-trudeau white-trudeau">
-          If you can see this text, the demo probably doesn't work. Oh well. Ask one of your friends to try it,
-          or if you have no friends ask a stranger. They generally seem willing to help.
-        </p>
-        
-        <p>
-          This is a demo of the iOS dark/light theme CSS switch, introduced in iOS 13. <br>
-          I decided to use a great example of the duality of man; current Canadian Prime Minister Justin Trudeau as he is
-          in an official photograph, and as he is in a picture of him in blackface. Whatever way you change it on your phone,
-          flip the switch from light to dark and watch Prime Minister Trudeau become an offensive depiction of a black man. <br>
-          At the time of writing, this is only possible to do on an iPhone running iOS 13 or later (which is only available on
-          iPhone 6 and the later models). Maybe it's possible on macOS and others but I haven't tested it.
-        </p>
-        
-        <img class="black-trudeau" src="black.jpg" alt="Justin Trudeau in blackface."></img>
-        <img class="white-trudeau" src="white.jpg" alt="Your typical picture of Justin Trudeau. He's white in this one (and most others)."></img>
-    
-        <p class="black-trudeau"> Source: <a href="https://time.com/5680759/justin-trudeau-brownface-photo/">Time</a></p>
-        <p class="white-trudeau"> Source: <a href="https://time.com/4910577/justin-trudeau-panda-bears-butter-sculpture/">Time</a></p>
+	<head>
+		<title>css demo</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta charset="UTF-8" />
+		<link rel="canonical" href="https://www.instantfloppy.net/misc/trudeau/" />
+		<style>
+			body { font-size: 1em; }
+			img { width: 100% }
+			@media (prefers-color-scheme: light) {
+				body {
+					background-color: #FFFFFF;
+					color: #000000;
+				}
+				hr { color: #000000; }
+				.black-trudeau { display: none; }
+				a { color: #CC0000; }
+			}
 
-        <p>Watch it in action: <a href="proof.gif">GIF (22.3MB)</a> / <a href="proof.MP4">MP4 (5.4MB)</a> / <a href="proof.webm">WEBM (1.6MB)</a></p>
+			@media (prefers-color-scheme: dark) {
+				body {
+					background-color: #000000;
+					color: #00FF00;
+				}
+				hr { color: #00FF00; }
+				.white-trudeau { display: none; }
+				a { color: #FF0000; }
+			}
+		</style>
+	</head>
+	<body>
+		<h1><a href="/">Instant Floppy</a></h1>
+		<hr size="1" width="25%" align="left" />
+		<p class="black-trudeau white-trudeau">If you can see this text, the demo probably doesn't work. Oh well. Ask one of your friends to try it, or if you have no friends ask a stranger. They generally seem willing to help.</p>
+		<p>
+			This is a demo of the iOS dark/light theme CSS switch, introduced in iOS 13. <br />
+			I decided to use a great example of the duality of man; current Canadian Prime Minister Justin Trudeau as he is
+			in an official photograph, and as he is in a picture of him in blackface. Whatever way you change it on your phone,
+			flip the switch from light to dark and watch Prime Minister Trudeau become an offensive depiction of a black man. <br />
+			At the time of writing, this is only possible to do on an iPhone running iOS 13 or later (which is only available on
+			iPhone 6 and the later models). Maybe it's possible on macOS and others but I haven't tested it.
+		</p>
+		<img class="black-trudeau" src="black.jpg" alt="Justin Trudeau in blackface."></img>
+		<img class="white-trudeau" src="white.jpg" alt="Your typical picture of Justin Trudeau. He's white in this one (and most others)."></img>
+		<p class="black-trudeau"> Source: <a href="https://time.com/5680759/justin-trudeau-brownface-photo/">Time</a></p>
+		<p class="white-trudeau"> Source: <a href="https://time.com/4910577/justin-trudeau-panda-bears-butter-sculpture/">Time</a></p>
+		<p>Watch it in action: <a href="proof.gif">GIF (22.3MB)</a> / <a href="proof.MP4">MP4 (5.4MB)</a> / <a href="proof.webm">WEBM (1.6MB)</a></p>
 
-        <hr size="1" width="25%" align="left">
-        <p>A thing made by Deven Blake, 2019. Please steal with credit. Also, if any cool tech people see this - please, <a href="https://blake.instantfloppy.net">email</a> me the ways I'm screwing up with the HTML! I love to learn and I know it's probably bad.</p>
-    </body>
+		<hr size="1" width="25%" align="left" />
+		<p>A thing made by Deven Blake, 2019 (updated 2020). Please steal with credit. Also, if any cool tech people see this - please, <a href="https://blake.instantfloppy.net">email</a> me the ways I'm screwing up with the HTML! I love to learn and I know it's probably bad.</p>
+	</body>
 </html>
