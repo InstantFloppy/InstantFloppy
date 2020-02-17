@@ -1,39 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>How to load external sources</title>
-        <link rel="canonical" href="https://www.instantfloppy.net/articles/interweb/loadexternal" />
-        <link rel='stylesheet' type='text/css' href='/stylesheet.css'/>
-        <meta charset="utf-8">
-    </head>
-    <body>
-        <h1>
-            <a href=/articles/interweb>Instant Floppy InterWeb</a> - How to load external sources in-browser
-        </h1>
-        <h2>
-            This article created 10 October 2018 by Deven Blake
-        </h2>
-        <hr size="1" color=#00FF00 width="25%" align="left">
-        <p>Browsers are one of the most important type of applications on our computers. This comes at a cost, namely the introduction of new safety techniques. While these security improvements benefit the general consumer, they can also make things inconvenient. One of such inconveniences is the removal of the automatic loading of external scripts on a webpage by default.</p>
-        <p>Basically, if a webpage has JavaScript or Flash apps that are hosted at external domains your browser should by default block that script's loading (this tutorial applies to Google Chrome and Mozilla Firefox, this article's contemporaries). There are times when you specifically want to load external scripts though, like if a lazy webmaster doesn't want to host their own content and instead embeds it (see Instant Floppy Games).</p>
-        <p>In Google Chrome, if the browser detects "unsafe sources" or external scripts (which very well could be unsafe) it'll block them and display a shield next to the bookmarks button on the right end of the omnibar. This shield will be half-black and half-white with a red X on its lower right corner. Click that button and then under the warning message click "Load unsafe scripts".</p>
-        <p>In Mozilla Firefox, the browser will also automatically block external scripts, but no button or information will be shown. Click the padlock on the left end of the URL bar to see certificate information (if the site is encrypted with SSL). If Firefox is blocking external sources there will be a message at the top of the popup saying "Firefox has blocked parts of this page that are insecure." Click the arrow to the right of the message to see certificate registration information and click the button labeled "<u>D</u>isable protection for now".</p>
-        <p>As of writing, Microsoft Edge doesn't block external sources. In Internet Explorer the section of the webpage where the script would play is white as the browser blocks the source, and Internet Explorer displays a message at the botton of the screen saying unsafe sources were blocked. Click the button that enables external sources and reload the page.</p>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>How to load external sources</title>
+		<link rel="canonical" href="https://www.instantfloppy.net/articles/interweb/loadexternal" />
+		<link rel="stylesheet" type="text/css" href="../../stylesheet.css" />
+	</head>
+	<body>
+		<h1><a href="./index">Instant Floppy InterWeb</a> - How to load external sources in-browser</h1>
+		<h2>This article created 10 October 2018 by Deven Blake</h2>
+		<hr size="1" color=#00FF00 width="25%" align="left" />
+		<p>Browsers are one of the most important type of applications on our computers. This comes at a cost, namely the introduction of new safety techniques. While these security improvements benefit the general consumer, they can also make things inconvenient. One of such inconveniences is the removal of the automatic loading of external scripts on a webpage by default.</p>
+		<p>Basically, if a webpage has JavaScript or Flash apps that are hosted at external domains your browser should by default block that script's loading (this tutorial applies to Google Chrome and Mozilla Firefox, this article's contemporaries). There are times when you specifically want to load external scripts though, like if a lazy webmaster doesn't want to host their own content and instead embeds it (see Instant Floppy Games).</p>
+		<p>In Google Chrome, if the browser detects "unsafe sources" or external scripts (which very well could be unsafe) it'll block them and display a shield next to the bookmarks button on the right end of the omnibar. This shield will be half-black and half-white with a red X on its lower right corner. Click that button and then under the warning message click "Load unsafe scripts".</p>
+		<p>In Mozilla Firefox, the browser will also automatically block external scripts, but no button or information will be shown. Click the padlock on the left end of the URL bar to see certificate information (if the site is encrypted with SSL). If Firefox is blocking external sources there will be a message at the top of the popup saying "Firefox has blocked parts of this page that are insecure." Click the arrow to the right of the message to see certificate registration information and click the button labeled "<u>D</u>isable protection for now".</p>
+		<p>As of writing, Microsoft Edge doesn't block external sources. In Internet Explorer the section of the webpage where the script would play is white as the browser blocks the source, and Internet Explorer displays a message at the botton of the screen saying unsafe sources were blocked. Click the button that enables external sources and reload the page.</p>
 
-        <hr size="1" color=#00FF00 width="25%" align="left">
-        <div id="disqus_thread"><p>To see Disqus comments you may have to enable JavaScript.</p></div>
-        <script>
-            var disqus_config = function () {
-                this.page.url = //www.instantfloppy.net/Articles/InterWeb/LoadExternal;
-                this.page.identifier = LoadExternal;
-            };
-
-            (function() {
-                var d = document, s = d.createElement('script');
-                s.src = 'https://instantf.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        </script>
-    </body>
+		<hr size="1" color=#00FF00 width="25%" align="left" />
+		<div id="disqus_thread"><p>To see Disqus comments you may have to enable JavaScript.</p></div>
+		<script>
+			var disqus_config = function () {
+				this.page.url = //www.instantfloppy.net/articles/interweb/loadexternal;
+				this.page.identifier = LoadExternal;
+			};
+			(function() {
+				var d = document, s = d.createElement('script');
+				s.src = 'https://instantf.disqus.com/embed.js';
+				s.setAttribute('data-timestamp', +new Date());
+				(d.head || d.body).appendChild(s);
+			})();
+		</script>
+	</body>
 </html>
